@@ -25,13 +25,13 @@ const useStyles = makeStyles({
 });
 
 function LayoutArea({
-  
+  Variant
 }) {
 
   const classes = useStyles();
 
   const {
-    formFactor,
+    
   } = useSelector((state) => {
     return {
       formFactor: state.formFactor,
