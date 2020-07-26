@@ -25,7 +25,7 @@ const useStyles = makeStyles({
 });
 
 function LayoutArea({
-  Variant
+  
 }) {
 
   const classes = useStyles();
