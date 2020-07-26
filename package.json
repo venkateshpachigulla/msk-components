@@ -6,9 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server .",
     "build": "webpack .",
-    "lint": "eslint --ext .js,.jsx .",
-    "pre-commit": "npm run lint",
-    "pre-push": "npm run lint"
+    "lint": "eslint --ext .js,.jsx ."
   },
   "repository": {
     "type": "git",
