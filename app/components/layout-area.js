@@ -6,7 +6,7 @@ import Paper from '@material-ui/core/Paper';
 import Flex from '@common-components/flex'
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { Box, Divider, Container } from '@material-ui/core';
-import Card from '@material-ui/core/Card';
+// import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import Avatar from '@material-ui/core/Avatar';
@@ -31,7 +31,7 @@ function LayoutArea({
   const classes = useStyles();
 
   const {
-    
+    formFactor,
   } = useSelector((state) => {
     return {
       formFactor: state.formFactor,
