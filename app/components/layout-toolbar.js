@@ -54,7 +54,7 @@ function LayoutToolbar() {
       elevation={0}
       color="inherit"
       position="fixed"
-      variant="dense"
+      variant="elevation"
       className={classes.layoutAppBar}
     >
       <Toolbar
